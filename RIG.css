@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: auto 0;
+    color: #46d80b;
+}
+
+.image {
+    text-align: center;
+    margin-bottom: 50px;
+    object-fit: contain;
+}
+
+.image img {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.image img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    color: #c0d80b;
+    font-size: 25px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.R-button {
+    text-align: center;
+}
+
+.R-button button {
+    border: none;
+    background-color: #0071e3;
+    color: white;
+    font-size: 15px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    transition: all 0.3 ease-in-out;
+}
+
+.R-button button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.R-button button:active {
+    opacity: 1;
+}
